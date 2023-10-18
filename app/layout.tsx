@@ -1,6 +1,6 @@
 import './globals.css'
-import Navbar from './Components/Navbar'
-import MyProfilePic from './Components/MyProfilePic'
+import Navbar from './components/Navbar'
+import MyProfilePic from './components/MyProfilePic'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
