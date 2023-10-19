@@ -4,7 +4,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 
 
-export function generateMetaData({ params }: { params: { postId: string } }) {
+export function generateMetadata({ params }: { params: { postId: string } }) {
     const posts = getSortedPostData()
     const { postId } = params
 
