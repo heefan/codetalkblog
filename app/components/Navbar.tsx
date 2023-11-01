@@ -9,10 +9,10 @@ export default function Navbar() {
                     <Link href="/" className="text-white/90 no-underline hover:text-white">My Post</Link>
                 </h1>
                 <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
-                    <Link className="text-white/90" href="https://"><FaGithub /></Link>
-                    <Link className="text-white/90" href="https://"><FaLaptop /></Link>
+                    <Link className="text-white/90" href="https://github.com/heefan"><FaGithub /></Link>
+                    {/* <Link className="text-white/90" href="https://"><FaLaptop /></Link>
                     <Link className="text-white/90" href="https://"><FaYoutube /></Link>
-                    <Link className="text-white/90" href="https://"><FaTwitter /></Link>
+                    <Link className="text-white/90" href="https://"><FaTwitter /></Link> */}
                 </div>
             </div>
         </nav >
